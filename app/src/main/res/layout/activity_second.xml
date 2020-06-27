@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3949AB"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="382dp"
+        android:layout_height="166dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/sikshaicon"
+        app:srcCompat="@drawable/shiksha" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:hint="@string/email_id"
+        android:paddingLeft="7dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:background="@drawable/bg1"
+        android:textSize="23sp"
+        android:textColorHint="#ffffff"
+        android:paddingStart="7dp"
+        android:drawableStart="@drawable/ic_baseline_account_circle_24"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:paddingLeft="7dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:inputType="textPassword"
+        android:background="@drawable/bg1"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textColorHint="#ffffff"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:paddingStart="7dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="#ffffff"
+        android:textSize="19sp"
+        android:layout_marginTop="9dp"
+        android:text="@string/forgot_password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/sign_in"
+        android:background="@drawable/bg2"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_user"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="154dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg2"
+        android:text="@string/register_here"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:onClick="Register"/>
+
+</LinearLayout>
